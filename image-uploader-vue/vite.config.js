@@ -10,16 +10,16 @@ export default defineConfig({
   build :{
     lib:{
       entry:path.resolve(__dirname,'src/index.js'),
-      name:'vue-image-uploader',
+      name:"image-uploader-vue",
       fileName:(format)=>`${format}.js`
     }
 
   },
   rollupOptions:{
-    external:['vue'],
+    external:["vue"],
     output:{
       globals:{
-        vue:'Vue'
+        vue:"Vue"
       }
     }
   },

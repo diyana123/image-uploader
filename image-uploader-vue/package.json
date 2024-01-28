@@ -2,14 +2,14 @@
   "name": "image-uploader",
   "version": "0.0.0",
   "files":["dist"],
-  "private": true,
+  "private": false,
   "type": "module",
-  "main":"./dist/vue-image-uploader.umd.js",
-  "module": "./dist/vue-image-uploader.es.js",
+  "main":"./dist/image-uploader-vue.umd.js",
+  "module": "./dist/image-uploader-vue.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-image-uploader.es.js",
-      "require": "./dist/vue-image-uploader.umd.js"
+      "import": "./dist/image-uploader-vue.es.js",
+      "require": "./dist/image-uploader-vue.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
